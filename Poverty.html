@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>
+        Poverty
+    </title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .h1 {
+            text-align: center;
+            background-color: bisque;
+            border: solid;
+            border-radius: 50px;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .p2 {
+            text-align: center;
+            background-color: chartreuse;
+            opacity: 55%;
+            border: solid;
+            border-radius: 30px;
+            font-size: 30px;
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #111;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+
+        .openbtn:hover {
+            background-color: #444;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg2">
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="noPoverty.html">No Poverty</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ MENU</button>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+    <h1 class="h1"> POVERTY </h1>
+    <p class="p2">Poverty is not less than a bane for society as well as for the nation itself. Although it has covered
+        every part
+        of the World, the origins of poverty are the same everywhere. Poverty is not a natural phenomenon. It is the
+        result of many factors which make its root stronger.
+
+        Among all the causes of poverty, the pressure of population is the greatest one. We can directly relate the
+        population of an economy to the poverty rate of it. The rising population creates a problem in providing basic
+        amenities to every individual of the nation. We can't ignore it.
+
+        The increasing population gives rise to the lack of education and then unemployment. Most of these unemployed
+        people are youth. They fight to get an appropriate job but finally land in the zone of poverty. Further, it
+        leads the nation towards heavy corruption and crime due to their frustration.
+
+        The economy of a country like India faces inflation most frequently. The inflation brings the rise in the price
+        of products and then the deficiency of adequate funds. The lack of capital is like a barrier to the development
+        of industries and technologies, which makes the economy backward and rest in poverty.
+
+        The lack of technical knowledge is another big reason for poverty in a country. The people without technical
+        knowledge are not ready to be an entrepreneur and run towards getting a job. By this, we don't get proper
+        industrialism in society, and it goes towards poverty much faster.
+
+        PREVIOUS STORY
+        PARAGRAPH ON CLEANLINESS
+        NEXT STORY
+        PARAGRAPH ON IMPORTANCE OF EDUCATION
+    </p>
+
+</body>
+
+</html>

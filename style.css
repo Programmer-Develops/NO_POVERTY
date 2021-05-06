@@ -1,0 +1,30 @@
+.h1 {
+    text-align: center;
+    background-color: bisque;
+    border: solid;
+    border-radius: 50px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p {
+    text-align: center;
+    background-color: chartreuse;
+    border: solid;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.bgIMG {
+
+    background-image: url("https://rajkumar12345678910.files.wordpress.com/2019/02/1.1.png?w=297&h=297");
+
+}
+
+.bg2 {
+    background-image: url("https://foreignpolicy.com/wp-content/uploads/2019/05/gettyimages-833466946.jpg?w=1500");
+}
+
+.bg3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQc1KYg-wjfB-ZqcugoDsU2_IYzBz_ynnxw&usqp=CAU");
+}
